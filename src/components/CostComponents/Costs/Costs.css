@@ -1,0 +1,21 @@
+.costs {
+    padding: 1rem;
+
+    background: linear-gradient(to right, #242582, #52319f);
+    animation: gradient 10s ease infinite;
+    margin: 2rem auto;
+    width: 70rem;
+    max-width: 95%;
+}
+
+@keyframes gradient {
+    0% {
+    background-position: 0% 50%;
+    }
+    50% {
+    background-position: 100% 50%;
+    }
+    100% {
+    background-position: 0% 50%;
+    }
+}
